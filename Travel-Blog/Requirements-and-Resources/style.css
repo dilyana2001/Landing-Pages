@@ -1,0 +1,159 @@
+        @import url('https://fonts.googleapis.com/css2?family=Gelasio:wght@400;500;700&display=swap');
+        @import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+        body {
+            margin: 0;
+            color: white;
+            font-family: 'Gelasio', serif;
+            font-size: 30px;
+            background: #E1E1E1;
+        }
+        
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+        
+        h2,
+        h3 {
+            font-weight: lighter;
+            margin: 0;
+        }
+        
+        h1,
+        h2,
+        h3 {
+            text-shadow: 2px 0px 3px rgb(0 0 0);
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        .bg-map-img {
+            background-image: url('images/map.jpg');
+            height: 100%;
+            min-height: 750px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: top center;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        header img {
+            width: 70px;
+            height: 100%;
+            padding: 30px;
+        }
+        
+        header nav ul {
+            display: flex;
+        }
+        
+        header nav ul li {
+            padding: 30px;
+            font-size: 20px;
+        }
+        
+        .start-now-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 150px;
+        }
+        
+        .start-now-section a {
+            padding: 10px;
+            border-radius: 5px;
+            background: #146594;
+        }
+        
+        .second-sector {
+            width: 80vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        
+        .article-sector {
+            display: flex;
+        }
+        
+        .title-articles {
+            margin: 20px 0;
+            color: #53595C;
+            text-shadow: unset;
+            font-weight: bold;
+        }
+        
+        .how-to-pack {
+            background-image: url('images/packing.jpg');
+            height: 750px;
+            width: 600px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .planing {
+            background-image: url('images/planning.jpg');
+            height: 375px;
+            width: 900px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .budget {
+            background-image: url('images/budget.jpg');
+            height: 375px;
+            width: 900px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        footer {
+            background: #8C8C8C;
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        
+        footer nav ul {
+            display: flex;
+            padding: 10px;
+        }
+        
+        footer nav ul li a {
+            padding: 0px 15px 0px 20px;
+            border-right: 1px solid #CBCBCB;
+            color: #CBCBCB
+        }
+        
+        footer nav ul li:nth-last-child(1) a {
+            border-right: unset
+        }
+        
+        .pack-effect {
+            text-align-last: center;
+            padding: 67px;
+        }
+        
+        .planing-title {
+            text-align-last: center;
+        }
+        
+        .budget-title {
+            padding: 295px 10px 0 10px;
+        }

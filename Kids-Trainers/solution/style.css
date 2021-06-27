@@ -1,6 +1,9 @@
     @import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap');
-    * {
+    *,
+    *::after,
+    *::before,
+    *::placeholder {
         margin: 0;
         padding: 0;
     }
@@ -196,24 +199,20 @@
         background: #565656;
     }
     
-    footer ul {
+    footer .main-ul-footer {
         display: flex;
         justify-content: space-evenly;
         margin: 10px;
     }
     
-    footer ul li nav ul {
+    footer .main-ul-footer li .un-ul-footer {
         display: flex;
         flex-direction: column;
     }
     
-    footer ul li nav ul li {
+    footer .main-ul-footer li .un-ul-footer li {
         margin: 10px;
         font-size: .9rem;
-    }
-    
-    footer ul li nav ul li h2 {
-        color: white;
     }
     
     .icons a {
